@@ -1,0 +1,12 @@
+{
+    "name": "ibu/autoresponder",
+    "description": "Auto responder system for intro2web course",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Hana Kuric",
+            "email": "hana.kuric@stu.ibu.edu.ba"
+        }
+    ],
+    "require": {}
+}
