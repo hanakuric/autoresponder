@@ -12,9 +12,17 @@ $user1 = [
 "name" => "Saliha Kuric",
 "email" => "salihakuric@gmail.com",
 "password" => "12345",
-"account_id" => 1
 ];
-$user = $user_dao->update_user(5, $user1);
+
+foreach($user1 as $name => $value){
+echo $name. "<br />";
+print $value. "<br />";
+
+}
+
+
+
+//$user = $user_dao->update_user(5, $user1);
 //$user = $user_dao->get_user_by_id(5);
 
 //$user_dao->get_user_by_email("hanakuric@gmail.com");
